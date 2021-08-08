@@ -31,12 +31,12 @@ coin.addEventListener("click", () => {
       compScoreTxt.textContent = ++compScore;
     }
     coin.classList.remove("rotate");
-    coin.disabled = false;
-    choiceSel.disabled = false;
   }, 1000);
 
   setTimeout(() => {
     resultMsg.textContent = "Flip again?";
+    coin.disabled = false;
+    choiceSel.disabled = false;
   }, 3000);
 });
 
