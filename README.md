@@ -1,0 +1,2 @@
+# SimpleCoinFlip
+Coin Flip website
